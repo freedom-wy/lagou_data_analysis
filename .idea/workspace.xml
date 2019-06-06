@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51ab48dd-58e5-4972-b77d-846330f37b0c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/lagou_data_analysis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lagou_data_analysis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study_flask/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/study_flask/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study_flask/app/spider/yushu_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/study_flask/app/spider/yushu_book.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study_flask/app/web/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/study_flask/app/web/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study_flask/app/web/book.py" beforeDir="false" afterPath="$PROJECT_DIR$/study_flask/app/web/book.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study_flask/run_study.py" beforeDir="false" afterPath="$PROJECT_DIR$/study_flask/run_study.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_flask/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_flask/app.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +15,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_flask/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+            <state relative-caret-position="203">
+              <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_flask/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+              <folding>
+                <element signature="e#394#400#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -33,6 +39,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -61,6 +68,7 @@
         <option value="$PROJECT_DIR$/study_flask/app/web/book.py" />
         <option value="$PROJECT_DIR$/study_flask/app/spider/yushu_book.py" />
         <option value="$PROJECT_DIR$/test_flask/README.md" />
+        <option value="$PROJECT_DIR$/test_flask/templates/index.html" />
         <option value="$PROJECT_DIR$/test_flask/app.py" />
       </list>
     </option>
@@ -99,6 +107,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/test_flask" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -413,10 +422,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test_flask/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding>
+            <element signature="e#394#400#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test_flask/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        <state relative-caret-position="203">
+          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
         </state>
       </provider>
     </entry>
