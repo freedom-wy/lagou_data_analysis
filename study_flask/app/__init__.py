@@ -2,6 +2,7 @@
 
 
 from flask import Flask
+from study_flask.app.models.book_models import db
 from study_flask.app.web.blue_print import web_blue
 
 
@@ -14,6 +15,12 @@ def create_app():
     app.config.from_object('app.secure')
     #调用注册函数
     register_blueprint_func(app)
+
+    #关联数据库
+    db.init_app(app)
+    db.create_all(app=app)
+
+
     return app
 
 #注册蓝图到app上

@@ -3,13 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="51ab48dd-58e5-4972-b77d-846330f37b0c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/lagou/run.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/study_flask/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/study_flask/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study_flask/app/forms/book_forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/study_flask/app/forms/book_forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study_flask/app/web/book.py" beforeDir="false" afterPath="$PROJECT_DIR$/study_flask/app/web/book.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study_flask/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/study_flask/app/setting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study_flask/helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/study_flask/app/libs/helper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study_flask/http_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/study_flask/app/libs/http_request.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/study_flask/yushu_book.py" beforeDir="false" afterPath="$PROJECT_DIR$/study_flask/app/spider/yushu_book.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/study_flask/app/secure.py" beforeDir="false" afterPath="$PROJECT_DIR$/study_flask/app/secure.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,53 +15,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/study_flask/run_study.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study_flask/app/secure.py">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="116">
-              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+              <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study_flask/app/web/book.py">
+        <entry file="file://$PROJECT_DIR$/study_flask/app/models/book_models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="25" column="67" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
+            <state relative-caret-position="348">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
-                <element signature="e#32#57#0" expanded="true" />
+                <element signature="e#32#78#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study_flask/app/spider/yushu_book.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="17" column="124" selection-start-line="17" selection-start-column="124" selection-end-line="17" selection-end-column="124" />
-              <folding>
-                <element signature="e#31#81#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/study_flask/app/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+            <state relative-caret-position="166">
+              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
               <folding>
                 <element signature="e#34#57#0" expanded="true" />
               </folding>
@@ -74,22 +49,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study_flask/app/setting.py">
+        <entry file="file://$PROJECT_DIR$/study_flask/app/secure.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/study_flask/app/forms/book_forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
-              <folding>
-                <element signature="e#58#109#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="174">
+              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -122,9 +85,10 @@
         <option value="$PROJECT_DIR$/study_flask/app/web/__init__.py" />
         <option value="$PROJECT_DIR$/study_flask/app/web/blue_print.py" />
         <option value="$PROJECT_DIR$/study_flask/app/forms/book_forms.py" />
-        <option value="$PROJECT_DIR$/study_flask/app/secure.py" />
-        <option value="$PROJECT_DIR$/study_flask/app/spider/yushu_book.py" />
         <option value="$PROJECT_DIR$/study_flask/app/web/book.py" />
+        <option value="$PROJECT_DIR$/study_flask/app/spider/yushu_book.py" />
+        <option value="$PROJECT_DIR$/study_flask/app/models/book_models.py" />
+        <option value="$PROJECT_DIR$/study_flask/app/secure.py" />
         <option value="$PROJECT_DIR$/study_flask/app/__init__.py" />
       </list>
     </option>
@@ -167,7 +131,7 @@
               <item name="lagou_data_analysis" type="462c0819:PsiDirectoryNode" />
               <item name="study_flask" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -176,16 +140,18 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/study_flask/app/spider" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\python_study\lagou_data_analysis" />
+      <recent name="E:\python_study\lagou_data_analysis\study_flask\lagou" />
       <recent name="E:\python_study\lagou_data_analysis\study_flask\app" />
       <recent name="E:\python_study\lagou_data_analysis\study_flask\app\spider" />
       <recent name="E:\python_study\lagou_data_analysis\study_flask\app\libs" />
-      <recent name="E:\python_study\lagou_data_analysis\study_flask" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\python_study\lagou_data_analysis\study_flask\lagou" />
       <recent name="E:\python_study\lagou_data_analysis\study_flask\app" />
       <recent name="E:\python_study\lagou_data_analysis\study_flask" />
       <recent name="E:\python_study\lagou_data_analysis" />
@@ -216,7 +182,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+      <option name="SCRIPT_NAME" value="E:\python_study\lagou_data_analysis\study_flask\lagou\run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -270,12 +236,12 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1369863" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1369863" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.324295" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6052061" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -290,7 +256,7 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/run.py">
+    <entry file="file://$PROJECT_DIR$/lagou/run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="609">
           <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
@@ -382,34 +348,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/study_flask/run_study.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/study_flask/app/web/blue_print.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study_flask/app/secure.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/study_flask/app/spider/yushu_book.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="17" column="124" selection-start-line="17" selection-start-column="124" selection-end-line="17" selection-end-column="124" />
-          <folding>
-            <element signature="e#31#81#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -423,13 +365,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/study_flask/app/spider/yushu_book.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <element signature="e#31#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lagou/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="87">
+            <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_flask/app/models/book_models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#32#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/flask_sqlalchemy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="1026" column="8" selection-start-line="1026" selection-start-column="8" selection-end-line="1026" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_flask/app/secure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/study_flask/app/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        <state relative-caret-position="166">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
           <folding>
             <element signature="e#34#57#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/study_flask/run_study.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
         </state>
       </provider>
     </entry>
