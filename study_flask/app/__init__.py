@@ -10,7 +10,8 @@ def create_app():
     #实例化flask
     app = Flask(__name__)
     #读取配置文件
-    app.config.from_object('config')
+    app.config.from_object('app.setting')
+    app.config.from_object('app.secure')
     #调用注册函数
     register_blueprint_func(app)
     return app
