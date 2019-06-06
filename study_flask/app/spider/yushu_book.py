@@ -1,5 +1,5 @@
 #Email:dazhuag_python@sina.com
-from study_flask.app.libs.http_request import HTTP
+from app.libs.http_request import HTTP
 #引入flask核心app
 from flask import current_app
 

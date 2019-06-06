@@ -1,5 +1,5 @@
 #Email:dazhuang_python@sina.com
-from study_flask.app import create_app
+from app import create_app
 
 #引入蓝图
 app = create_app()

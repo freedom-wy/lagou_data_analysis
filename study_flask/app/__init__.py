@@ -2,8 +2,8 @@
 
 
 from flask import Flask
-from study_flask.app.models.book_models import db
-from study_flask.app.web.blue_print import web_blue
+from app.models.book_models import db
+from app.web.blue_print import web_blue
 
 
 #将初始化代码放入__init__文件中

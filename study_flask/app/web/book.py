@@ -1,10 +1,10 @@
 #Email:dazhuang_python@sina.com
 from flask import request
 from flask.json import jsonify
-from study_flask.app.forms.book_forms import SearchForm
-from study_flask.app.web.blue_print import web_blue
-from study_flask.app.libs.helper import isbn_or_key
-from study_flask.app.spider.yushu_book import YuShuBook
+from app.forms.book_forms import SearchForm
+from app.web.blue_print import web_blue
+from app.libs.helper import isbn_or_key
+from app.spider.yushu_book import YuShuBook
 
 
 #定义路由,当路由中加上了末尾的斜杠，浏览器在请求不加斜杠的路径时会302到加斜杠的路径上
