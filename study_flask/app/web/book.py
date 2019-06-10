@@ -7,6 +7,10 @@ from app.libs.helper import isbn_or_key
 from app.spider.yushu_book import YuShuBook
 
 
+@web_blue.route("/")
+def index():
+    return ""
+
 #定义路由,当路由中加上了末尾的斜杠，浏览器在请求不加斜杠的路径时会302到加斜杠的路径上
 #通过q和page传递参数
 #更改为通过蓝图注册,蓝图最终还需要注册到app上
