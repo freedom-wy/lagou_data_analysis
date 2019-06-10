@@ -2,8 +2,11 @@
 
 #render_template用于渲染html模板
 from flask import Flask,render_template
+from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
+#初始化数据库扩展
+db = SQLAlchemy(app)
 
 
 name = 'dazhuang'

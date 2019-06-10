@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>{{ name }}'s website</title>
+    <link rel="icon" class="avatar" href="{{url_for('static',filename='images/avatar.png')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}" type="text/css">
 </head>
 <body>
     <h2>{{ name}} 的网站</h2>
     {#使用length过滤器获取movies变量的长度#}
     <p>当前有{{movies|length}} 个电影</p>
-    <ul>
+    <ul class="movie-list">
         {%for movie in movies%}{#迭代movies变量#}
         <li>{{movie.title}}-{{movie.year}}</li>
         {%endfor%}{#结束for循环#}
     </ul>
+    <img src="{{url_for('static',filename='images/totoro.gif')}}" class="totoro">
     <footer>
         <span>&copy; 2019 <a href="#">dazhuang's flask</a></span>
     </footer>
