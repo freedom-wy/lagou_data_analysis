@@ -1,7 +1,41 @@
 #Email:dazhuang_python@sina.com
 #引入view-models
 
-class BookViewModel:
+
+#处理单本数据
+class BookViewModel(object):
+    def __init__(self,book):
+        self.title= book['title'],
+        self.publisher= book['publisher']
+        self.pages= book['pages']
+        self.price= book['price']
+        self.summary= book['summary']
+        self.image= book['image']
+        # 由于鱼书api返回的作者是列表，因此使用join方法处理
+        self.author= book['author']
+
+#处理关键字搜索的多本数据
+class BookCollection(object):
+    def __init__(self):
+        self.total = 0
+        self.books = []
+        self.keyword = ''
+
+    def fill(self,yushu_book,keyword):
+        """
+        既可以处理单本书，也可以处理多本书
+        :param yushu_book:
+        :param keyword: 关键字
+        :return:
+        """
+        self.total = yushu_book.total
+        self.keywod = keyword
+        self.books = [BookViewModel(book) for book in yushu_book.books]
+
+
+
+
+class __BookViewModel:
     #用于解决数据规范性
     #单本书
     @classmethod

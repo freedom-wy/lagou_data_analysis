@@ -2,10 +2,11 @@
 from flask import request
 from flask.json import jsonify
 from app.forms.book_forms import SearchForm
-from app.view_models.book_view_model import BookViewModel
+from app.view_models.book_view_model import BookCollection
 from app.web.blue_print import web_blue
 from app.libs.helper import isbn_or_key
 from app.spider.yushu_book import YuShuBook
+import json
 
 
 @web_blue.route("/")
@@ -19,18 +20,20 @@ def index():
 #定义视图函数
 def search():
     form = SearchForm(request.args)
+    books = BookCollection()
     #使用validate启用验证
     if form.validate():
         q = form.q.data.strip()
         page = form.page.data
         #判断传入的q是ISBN还是普通关键字
         isbn_or_key_value = isbn_or_key(q)
+        yushu_book = YuShuBook()
         if isbn_or_key_value == 'isbn':
-            result = YuShuBook.search_by_isbn(isbn=q)
-            end_result = BookViewModel.package_single(data=result,keyword=q)
+            yushu_book.search_by_isbn(isbn=q)
         else:
-            result = YuShuBook.search_by_keyword(keyword=q,page=page)
-            end_result = BookViewModel.package_collection(data=result,keyword=q)
-        return jsonify(end_result)
+            yushu_book.search_by_keyword(keyword=q,page=page)
+        books.fill(yushu_book=yushu_book,keyword=q)
+        # return jsonify(books)
+        return json.dumps(books,default = lambda o:o.__dict__)
     else:
         return jsonify({"msg":"传入参数有误"})
