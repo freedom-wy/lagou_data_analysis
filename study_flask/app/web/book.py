@@ -2,6 +2,7 @@
 from flask import request
 from flask.json import jsonify
 from app.forms.book_forms import SearchForm
+from app.view_models.book_view_model import BookViewModel
 from app.web.blue_print import web_blue
 from app.libs.helper import isbn_or_key
 from app.spider.yushu_book import YuShuBook
@@ -26,8 +27,10 @@ def search():
         isbn_or_key_value = isbn_or_key(q)
         if isbn_or_key_value == 'isbn':
             result = YuShuBook.search_by_isbn(isbn=q)
+            end_result = BookViewModel.package_single(data=result,keyword=q)
         else:
             result = YuShuBook.search_by_keyword(keyword=q,page=page)
-        return jsonify(result)
+            end_result = BookViewModel.package_collection(data=result,keyword=q)
+        return jsonify(end_result)
     else:
         return jsonify({"msg":"传入参数有误"})
