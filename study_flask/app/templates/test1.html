@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试页面1</title>
+</head>
+<body>
+后端传递过来的名称为:{{data.name}}
+{#在模板中使用If语句#}
+{% if data.age < 18 %}
+    当年龄小于18
+{% elif data.age == 18 %}
+    当年龄等于18
+{% else %}
+    else语句
+{#在jinja2模版语言中,if语句一定要使用endif结束#}
+{% endif %}
+{#在jinja2中使用for循环#}
+{% for key,value in data.items()%}
+    {{key,value}}
+{% endfor %}
+</body>
+</html>

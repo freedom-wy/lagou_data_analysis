@@ -1,5 +1,5 @@
 #Email:dazhuang_python@sina.com
-from flask import request
+from flask import request, render_template
 from flask.json import jsonify
 from app.forms.book_forms import SearchForm
 from app.view_models.book_view_model import BookCollection
@@ -11,7 +11,12 @@ import json
 
 @web_blue.route("/")
 def index():
-    return ""
+    r = {
+        "name":"dazhuang",
+        "age":20
+    }
+    #使用render_template渲染html
+    return render_template('test1.html',data=r)
 
 #定义路由,当路由中加上了末尾的斜杠，浏览器在请求不加斜杠的路径时会302到加斜杠的路径上
 #通过q和page传递参数
