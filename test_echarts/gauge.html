@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>仪表盘</title>
+    <script src="echarts.js"></script>
+</head>
+<body>
+<div id="main" style="height:500px;width:900px"></div>
+<script type="text/javascript">
+    var mychart = echarts.init(document.getElementById("main"));
+    option = {
+        title:{
+            text:"仪表盘",
+            left:"center"
+        },
+        series:[
+            {
+                name:"业务指标",
+                // 设置为仪表盘
+                type:"gauge",
+                detail:{
+                    // 设置数值
+                    formatter:'{value}%'
+                },
+                data:[
+                    {
+                        // 设置初始值
+                        value:10,name:"完成率"
+                    }
+                ]
+            }
+        ]
+    };
+    setInterval(function () {
+        option.series[0].data[0].value = (Math.random()*100).toFixed(2) - 0;
+        mychart.setOption(option,true)
+    },2000);
+</script>
+</body>
+</html>
