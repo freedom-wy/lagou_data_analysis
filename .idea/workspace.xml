@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51ab48dd-58e5-4972-b77d-846330f37b0c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="51ab48dd-58e5-4972-b77d-846330f37b0c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,22 +21,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="2" />
+          <entry key="html" value="6" />
+          <entry key="js" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="2" />
+          <entry key="HTML" value="6" />
+          <entry key="JavaScript" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1670" />
+          <entry key="html" value="3264" />
+          <entry key="js" value="854" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1670" />
+          <entry key="HTML" value="3264" />
+          <entry key="JavaScript" value="854" />
         </counts>
       </usages-collector>
     </session>
@@ -46,22 +48,37 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_echarts/two_y.html">
+        <entry file="file://$PROJECT_DIR$/lagou/test_echarts/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+            <state relative-caret-position="-2394">
+              <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_echarts/advanced_range.html">
+        <entry file="file://$PROJECT_DIR$/lagou/test_echarts/js/js.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1743">
-              <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="326">
+              <caret line="456" column="34" selection-start-line="456" selection-start-column="34" selection-end-line="456" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_echarts/pie.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="678">
+              <caret line="46" column="44" lean-forward="true" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lagou/test_echarts/js/area_echarts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -72,6 +89,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -112,6 +130,12 @@
         <option value="$PROJECT_DIR$/test_echarts/pie.html" />
         <option value="$PROJECT_DIR$/test_echarts/gauge.html" />
         <option value="$PROJECT_DIR$/test_echarts/advanced_range.html" />
+        <option value="$PROJECT_DIR$/test_echarts/draw_point_map/jquery-3.4.1.min.js" />
+        <option value="$PROJECT_DIR$/test_echarts/draw_point_map/index.html" />
+        <option value="$PROJECT_DIR$/test_echarts/draw_point_map/test.html" />
+        <option value="$PROJECT_DIR$/lagou/test_echarts/index.html" />
+        <option value="$PROJECT_DIR$/lagou/test_echarts/js/area_echarts.js" />
+        <option value="$PROJECT_DIR$/lagou/test_echarts/js/js.js" />
       </list>
     </option>
   </component>
@@ -121,7 +145,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="290" />
     <option name="y" value="49" />
     <option name="width" value="1382" />
@@ -145,6 +169,24 @@
             <path>
               <item name="lagou_data_analysis" type="b2602c69:ProjectViewProjectNode" />
               <item name="lagou_data_analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="lagou" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lagou_data_analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lagou_data_analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="lagou" type="462c0819:PsiDirectoryNode" />
+              <item name="test_echarts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lagou_data_analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lagou_data_analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="lagou" type="462c0819:PsiDirectoryNode" />
+              <item name="test_echarts" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lagou_data_analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lagou_data_analysis" type="462c0819:PsiDirectoryNode" />
               <item name="test_echarts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -158,23 +200,23 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test_echarts/draw_point_map" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\imooc\lagou_data_analysis\test_echarts\draw_point_map" />
+      <recent name="E:\python_study\lagou_data_analysis\study_flask\app\static" />
+      <recent name="E:\python_study\lagou_data_analysis\test_flask" />
+      <recent name="E:\python_study\lagou_data_analysis\study_flask\lagou" />
+      <recent name="E:\python_study\lagou_data_analysis\study_flask\app" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\python_study\lagou_data_analysis\test_echarts" />
       <recent name="E:\python_study\lagou_data_analysis\test_flask\static\images" />
       <recent name="E:\python_study\lagou_data_analysis" />
       <recent name="E:\python_study\lagou_data_analysis\study_flask\lagou" />
       <recent name="E:\python_study\lagou_data_analysis\study_flask\app" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\python_study\lagou_data_analysis\study_flask\app\static" />
-      <recent name="E:\python_study\lagou_data_analysis\test_flask" />
-      <recent name="E:\python_study\lagou_data_analysis\study_flask\lagou" />
-      <recent name="E:\python_study\lagou_data_analysis\study_flask\app" />
-      <recent name="E:\python_study\lagou_data_analysis\study_flask" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -290,7 +332,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19978401" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.041576672" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -502,13 +544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_echarts/pie.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_echarts/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -516,6 +551,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
           <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -523,6 +561,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="742">
           <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_echarts/advanced_range.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="881">
+          <caret line="98" column="23" selection-start-line="98" selection-start-column="23" selection-end-line="98" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -533,13 +584,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_echarts/advanced_range.html">
+    <entry file="file://$PROJECT_DIR$/test_echarts/draw_point_map/echarts.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_echarts/draw_point_map/jquery-3.4.1.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_echarts/draw_point_map/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1743">
-          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        <state relative-caret-position="64">
+          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
           <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_echarts/draw_point_map/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-719">
+          <caret line="644" column="30" selection-start-line="644" selection-start-column="30" selection-end-line="644" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lagou/test_echarts/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2394">
+          <caret line="31" column="21" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lagou/test_echarts/js/area_echarts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_echarts/pie.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="678">
+          <caret line="46" column="44" lean-forward="true" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lagou/test_echarts/js/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="456" column="34" selection-start-line="456" selection-start-column="34" selection-end-line="456" selection-end-column="34" />
         </state>
       </provider>
     </entry>
