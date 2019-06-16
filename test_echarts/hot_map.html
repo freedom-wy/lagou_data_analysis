@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>热力图</title>
+    <script src="echarts.js"></script>
+</head>
+<body>
+    <div id="main" style="width: 900px;height: 500px"></div>
+    <script type="text/javascript">
+        var mychart = echarts.init(document.getElementById("main"));
+        option = {
+            title:{
+                text:"热力图",
+                left:'center',
+                subtext:'百度热力图测试'
+            }
+        };
+        mychart.setOption(option);
+    </script>
+
+</body>
+</html>
