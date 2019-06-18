@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>画一个饼图</title>
+    <script src="../echarts.js"></script>
+</head>
+<body>
+    <div id="main" style="width: 900px;height: 500px"></div>
+    <script type="text/javascript">
+        var mychart = echarts.init(document.getElementById("main"));
+        option = {
+            title:{
+                text:'饼图'
+            },
+            legend:{
+                textStyle:{
+                    color:'#111'
+                },
+                data:['视频广告','联盟广告','邮件营销','直接访问','搜索引擎','未知']
+            },
+            series:[
+                {
+                    name:'访问来源',
+                    type:'pie',
+                    radius:'55%',
+                    data:[
+                        {value:235,name:'视频广告'},
+                        {value:274,name:'联盟广告'},
+                        {value:310,name:'邮件营销'},
+                        {value:335,name:'直接访问'},
+                        {value:400,name:'搜索引擎'},
+                        {value:265,name:'未知'}
+                    ],
+                    // 设置为南丁格尔图
+                    roseType:'angle',
+                    itemStyle:{
+                        // 正常的阴影效果
+                        normal:{
+                            // 阴影大小
+                            shadowBlur:200,
+                            shadowOffseX:0,
+                            shadowOffsetY:0,
+                            // 阴影颜色
+                            shadowColor:'rgba(0,0,0,0.5)'
+                        }
+                        // 当鼠标放在上面时的阴影效果
+                        // emphasis:{
+                        //     shadowBlur:200,
+                        //     shadowColor:'rgba(0,0,0,0.5)'
+                        // }
+                    }
+                }
+            ]
+        };
+        mychart.setOption(option);
+    </script>
+
+</body>
+</html>
