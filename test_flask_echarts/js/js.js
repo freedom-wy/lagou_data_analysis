@@ -2,9 +2,9 @@
     echarts_1();
     echarts_2();
     echarts_4();
-// echarts_31();
-// echarts_32();
-// echarts_33();
+    echarts_31();
+    echarts_32();
+    echarts_33();
     echarts_5();
     echarts_6();
     function echarts_1() {
@@ -380,7 +380,7 @@
                                 offset: 0.8,
                                 color: 'rgba(1, 132, 213, 0.1)'
                             }], false),
-                            shadowColor: 'rgba(0, 0, 0, 0.1)',
+                            shadowColor: 'rgba(0, 0, 0, 0.1)'
                     },
                     itemStyle: {
                             color: '#0184d5',
@@ -406,7 +406,7 @@
                                 offset: 0.8,
                                 color: 'rgba(0, 216, 135, 0.1)'
                             }], false),
-                            shadowColor: 'rgba(0, 0, 0, 0.1)',
+                            shadowColor: 'rgba(0, 0, 0, 0.1)'
                     },
                     itemStyle: {
                             color: '#00d887',
@@ -442,7 +442,7 @@
         var placeHolderStyle = {
             normal: {
                 color: 'rgba(255,255,255,.05)',
-                label: {show: false,},
+                label: {show: false},
                 labelLine: {show: false}
             },
             emphasis: {
@@ -463,7 +463,7 @@
 
                 data: ['浙江', '上海', '广东', '北京', '深圳'],
                 textStyle: {
-                    color: 'rgba(255,255,255,.6)',
+                    color: 'rgba(255,255,255,.6)'
                 }
             },
 
@@ -477,11 +477,13 @@
                     itemStyle: dataStyle,
                     hoverAnimation: false,
                     data: [{
+                        // 数据量
                         value: 80,
                         name: '01'
                     }, {
                         value: 20,
                         name: 'invisible',
+                        // 该条目不显示
                         tooltip: {show: false},
                         itemStyle: placeHolderStyle
                     }]
@@ -557,7 +559,7 @@
                         tooltip: {show: false},
                         itemStyle: placeHolderStyle
                     }]
-                },]
+                }]
         };
 
         // 使用刚指定的配置项和数据显示图表。
@@ -573,7 +575,7 @@
         option = {
 
             title: [{
-                text: '年龄分布',
+                text: '融资情况',
                 left: 'center',
                 textStyle: {
                     color: '#fff',
@@ -589,19 +591,18 @@
                 }
             },
             legend: {
-
                 top: '70%',
                 itemWidth: 10,
                 itemHeight: 10,
                 data: ['0岁以下', '20-29岁', '30-39岁', '40-49岁', '50岁以上'],
                 textStyle: {
                     color: 'rgba(255,255,255,.5)',
-                    fontSize: '12',
+                    fontSize: '12'
                 }
             },
             series: [
                 {
-                    name: '年龄分布',
+                    name: '容器情况',
                     type: 'pie',
                     center: ['50%', '42%'],
                     radius: ['40%', '60%'],
@@ -613,7 +614,7 @@
                         {value: 4, name: '20-29岁'},
                         {value: 2, name: '30-39岁'},
                         {value: 2, name: '40-49岁'},
-                        {value: 1, name: '50岁以上'},
+                        {value: 1, name: '50岁以上'}
                     ]
                 }
             ]
@@ -632,7 +633,7 @@
         option = {
 
             title: [{
-                text: '职业分布',
+                text: '公司规模',
                 left: 'center',
                 textStyle: {
                     color: '#fff',
@@ -648,19 +649,18 @@
                 }
             },
             legend: {
-
                 top: '70%',
                 itemWidth: 10,
                 itemHeight: 10,
                 data: ['电子商务', '教育', 'IT/互联网', '金融', '学生', '其他'],
                 textStyle: {
                     color: 'rgba(255,255,255,.5)',
-                    fontSize: '12',
+                    fontSize: '12'
                 }
             },
             series: [
                 {
-                    name: '年龄分布',
+                    name: '公司规模',
                     type: 'pie',
                     center: ['50%', '42%'],
                     radius: ['40%', '60%'],
@@ -673,7 +673,7 @@
                         {value: 6, name: 'IT/互联网'},
                         {value: 2, name: '金融'},
                         {value: 1, name: '学生'},
-                        {value: 1, name: '其他'},
+                        {value: 1, name: '其他'}
                     ]
                 }
             ]
@@ -691,7 +691,7 @@
         var myChart = echarts.init(document.getElementById('fb3'));
         option = {
             title: [{
-                text: '兴趣分布',
+                text: '岗位要求',
                 left: 'center',
                 textStyle: {
                     color: '#fff',
@@ -713,12 +713,12 @@
                 data: ['汽车', '旅游', '财经', '教育', '软件', '其他'],
                 textStyle: {
                     color: 'rgba(255,255,255,.5)',
-                    fontSize: '12',
+                    fontSize: '12'
                 }
             },
             series: [
                 {
-                    name: '兴趣分布',
+                    name: '岗位要求',
                     type: 'pie',
                     center: ['50%', '42%'],
                     radius: ['40%', '60%'],
@@ -731,7 +731,7 @@
                         {value: 1, name: '财经'},
                         {value: 4, name: '教育'},
                         {value: 8, name: '软件'},
-                        {value: 1, name: '其他'},
+                        {value: 1, name: '其他'}
                     ]
                 }
             ]
@@ -743,24 +743,4 @@
             myChart.resize();
         });
     }
-
-
-})
-
-
-
-		
-		
-		
-
-
-		
-
-
-
-
-
-
-
-
-
+});
