@@ -1,6 +1,9 @@
 # lagou_data_analysis
 ## 拉勾网岗位数据分析
 
+#### 最终实现效果图
+![avatar](‪D:\lagouwang.png)
+
 ##### 1、通过爬虫抓取拉勾网python岗位信息，并存储到mysql
 ##### 2、通过flask框架发布分析网页
 
