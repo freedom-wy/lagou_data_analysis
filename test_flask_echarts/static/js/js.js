@@ -11,109 +11,114 @@
     function echarts_1() {
         // 请求数据
         $.ajax({
-           type:'get',
-           url:'/get_data',
-           dataType:'json',
-           success:function (returnData) {
-                // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('echart1'));
+            type: 'get',
+            url: '/get_data',
+            dataType: 'json',
+            success: function (returnData) {
+                // 调用echarts
+                echarts_1_function(returnData)
+            }
+        });
 
-        option = {
-            tooltip: {
-                trigger: 'axis',
-                axisPointer: {
-                    // 柱形图阴影样式
-                    type: 'shadow'
-                }
-            },
-            // 柱形图与外容器间距
-            grid: {
-                left: '0%',
-                top: '10px',
-                right: '0%',
-                bottom: '4%',
-                // x,y轴是否显示
-                containLabel: true
-            },
-            xAxis: [{
-                type: 'category',
-                // data: ['商超门店', '教育培训', '房地产', '生活服务', '汽车销售', '旅游酒店', '五金建材'],
-                data: returnData['name'],
-                axisLine: {
-                    show: true,
-                    lineStyle: {
-                        color: "rgba(255,255,255,.1)",
-                        // 横坐标线宽
-                        width: 1,
-                        type: "solid"
-                    }
-                },
+        function echarts_1_function(data) {
+            // 基于准备好的dom，初始化echarts实例
+            var myChart = echarts.init(document.getElementById('echart1'));
 
-                axisTick: {
-                    // 是否显示X轴刻度
-                    show: false
-                },
-                axisLabel: {
-                    // x轴数据标签显示样式
-                    interval: 0,
-                    show: true,
-                    splitNumber: 15,
-                    textStyle: {
-                        color: "rgba(255,255,255,.6)",
-                        fontSize: '12'
-                    }
-                }
-            }],
-            yAxis: [{
-                type: 'value',
-                axisLabel: {
-                    show: true,
-                    textStyle: {
-                        color: "rgba(255,255,255,.6)",
-                        fontSize: '12'
+            option = {
+                tooltip: {
+                    trigger: 'axis',
+                    axisPointer: {
+                        // 柱形图阴影样式
+                        type: 'shadow'
                     }
                 },
-                axisTick: {
-                    show: false
+                // 柱形图与外容器间距
+                grid: {
+                    left: '0%',
+                    top: '10px',
+                    right: '0%',
+                    bottom: '4%',
+                    // x,y轴是否显示
+                    containLabel: true
                 },
-                axisLine: {
-                    show: true,
-                    lineStyle: {
-                        color: "rgba(255,255,255,.1	)",
-                        width: 1,
-                        type: "solid"
-                    }
-                },
-                splitLine: {
-                    lineStyle: {
-                        color: "rgba(255,255,255,.1)"
-                    }
-                }
-            }],
-            series: [
-                {
-                    type: 'bar',
-                    data: [200, 300, 300, 900, 1500, 1200, 600],
-                    barWidth: '35%', //柱子宽度
-                    itemStyle: {
-                        color: '#2f89cf',
-                        // 数值为0时不绘制该柱形
-                        opacity: 1,
-                        // 柱形图圆角
-                        barBorderRadius: 5
-                    }
-                }
+                xAxis: [{
+                    type: 'category',
+                    // data: ['商超门店', '教育培训', '房地产', '生活服务', '汽车销售', '旅游酒店', '五金建材'],
+                    data: data['name'],
+                    axisLine: {
+                        show: true,
+                        lineStyle: {
+                            color: "rgba(255,255,255,.1)",
+                            // 横坐标线宽
+                            width: 1,
+                            type: "solid"
+                        }
+                    },
 
-            ]
+                    axisTick: {
+                        // 是否显示X轴刻度
+                        show: false
+                    },
+                    axisLabel: {
+                        // x轴数据标签显示样式
+                        interval: 0,
+                        show: true,
+                        splitNumber: 15,
+                        textStyle: {
+                            color: "rgba(255,255,255,.6)",
+                            fontSize: '12'
+                        }
+                    }
+                }],
+                yAxis: [{
+                    type: 'value',
+                    axisLabel: {
+                        show: true,
+                        textStyle: {
+                            color: "rgba(255,255,255,.6)",
+                            fontSize: '12'
+                        }
+                    },
+                    axisTick: {
+                        show: false
+                    },
+                    axisLine: {
+                        show: true,
+                        lineStyle: {
+                            color: "rgba(255,255,255,.1	)",
+                            width: 1,
+                            type: "solid"
+                        }
+                    },
+                    splitLine: {
+                        lineStyle: {
+                            color: "rgba(255,255,255,.1)"
+                        }
+                    }
+                }],
+                series: [
+                    {
+                        type: 'bar',
+                        data: [200, 300, 300, 900, 1500, 1200, 600],
+                        barWidth: '35%', //柱子宽度
+                        itemStyle: {
+                            color: '#2f89cf',
+                            // 数值为0时不绘制该柱形
+                            opacity: 1,
+                            // 柱形图圆角
+                            barBorderRadius: 5
+                        }
+                    }
+
+                ]
+            };
+
+            // 使用刚指定的配置项和数据显示图表。
+            myChart.setOption(option);
+            window.addEventListener("resize", function () {
+                myChart.resize();
+            });
         };
-
-        // 使用刚指定的配置项和数据显示图表。
-        myChart.setOption(option);
-        window.addEventListener("resize", function () {
-            myChart.resize();
-        });
-           }
-        });
     }
 
     function echarts_2() {
@@ -753,4 +758,5 @@
             myChart.resize();
         });
     }
-});
+})
+;
